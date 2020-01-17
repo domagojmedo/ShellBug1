@@ -43,6 +43,7 @@
     <MenuItem Text="{Binding MenuItemText, Mode=Default}"/>
     <MenuItem Text="{Binding MenuItemText, Mode=OneWay}"/>
     <MenuItem Text="{Binding MenuItemText, Mode=OneWayToSource}"/>
+    <MenuItem Text="{Binding MenuItemText}"/>
 
     <!-- Your Pages -->
     <TabBar>

@@ -21,7 +21,7 @@
 
         private void Button_Clicked(object sender, System.EventArgs e)
         {
-            MenuItemText = "New menu item";
+            MenuItemText = MenuItemText == "New menu item" ? "Menu item" : "New menu item";
         }
     }
 }
